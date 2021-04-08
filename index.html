@@ -8,10 +8,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div class="topnav" id="myTopnav">
+        <a href="#about">About the Film</a>
+        <a href="#project">Project Specification</a>
+        <a href="#statement">Director's Statement</a>
+        <a href="#cast">Cast</a>
+        <a href="#bios">Production Team Bios</a>
+        <a href="#credits">Full Credits</a>
+        <a href="#contact">Contact</a>        
+        <a href="http://www.corpusfusion.com/" class="active">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <img class="poster" src="img/HC_poster.jpg" alt="">
-    <div class="container">
+    <div class="container" id="about">
         <h1>About the film</h1>
         <h6>Tagline</h6>
         <p>Detectives searching a sadistic racist killer.</p>
@@ -24,7 +41,7 @@
         <h6>About Homicidal Crimes</h6>
         <p>Robert Cantu’s Homicidal Crimes is a climatic Noir film with bold characters. Homicide Detective Anderson and Detective Salazar were reviewing evidence of recent homicides in Guadalupe area in San Antonio, TX. Robert demonstrate reenactment of witness’s testimonies which verifies that “Kimo” is the suspect of Hispanic women’s murder. Despite of Captain’s objection, the detectives goes to apprehend “Kimo” at an abandoned house.</p>
     </div>
-    <div class="container">
+    <div class="container" id="project">
         <h1>Project Specification</h1>
         <p><span class="bolden">GENRE: </span>Film Noir</p>
         <p><span class="bolden">RUNNING TIME: </span>13 minutes:42 seconds</p>
@@ -40,7 +57,7 @@
         <p><span class="bolden">PRODUCTION COMPANY: </span>Corpus Fusion/Austin, Tx,    t: 210-251-1448, e: corpusfusion@gmail.com</p>
         <p><span class="bolden">SOCIAL MEDIA WEBSITES: </span>Film Website: corpusfusion.com, Facebook: facebook.com/corpusfusion, Twitter: twitter.com/fusioncorpus,  Instagram: instagram.com/corpusfusion</p>
     </div>
-    <div class="container">
+    <div class="container" id="statement">
         <h1>DIRECTOR’S STATEMENT</h1>
         <p>Homicidal Crimes is a fusion of classic Noir with contemporary drama. My favorite genre, crime drama, is due to the flaw characters that roam in the community and the protagonist who is flaw as well is out to stop them.</p>
         <p>The fictional story was developed to emphasize the deep racial tension that our community deals with from the criminals as well as from the justice system. The detectives in the film demonstrate the types of evidence that they decipher to identify the killer. Their investigation is artistically film to reenact the crime scenes.</p> 
@@ -50,7 +67,7 @@
         <p>Producer, Writer & Director</p> 
         <p>02/06/2021</p>
     </div>
-    <div class="container">
+    <div class="container" id="cast">
         <h1>Cast</h1>
         <div class="cast">
             <h6><span class="name">Scotty Walker</span> as Detective Anderson</h6>
@@ -138,7 +155,7 @@
         </div> 
     </div>
 
-    <div class="container">
+    <div class="container" id="bios">
     <h1>PRODUCTION TEAM BIOGRAPHIES</h1>
     <div class="cast">
         <h6><span class="name">ROBERT CANTU: </span>Producer, Writer & Director</h6>
@@ -161,7 +178,7 @@
                 <p>Christ is currently resides in San Antonio, TX. Worked in sounds in Florentine Garden(2019) & Homicidal Crime(2021).</p>
             </div>
     
-    <div class="credits">
+    <div class="credits" id="credits">
         <div>
         <h1>FULL CREDITS</h1>
         <h4>CORPUS FUSION ENTERTAINMENT presents<br>
@@ -198,19 +215,22 @@
             <div>River Cantu</div>
         </article>
     </div>
-    <div class="footer">
-        <img src="img/Corpus Fusion Logo black.png" alt="">
-        <img src="img/Alamo Belt-Buckle.png" alt="">
-        <div class="contact">
-            <p>Robert Cantu<br>
-                Corpus Fusion Entertainment<br>
-                corpusfusion@gmail.com <br>
-                210.251.1448</p>
+    <div class="footer" id="contact">
+        <div class="footer_row">
+            <img src="img/Corpus Fusion Logo black.png" alt="">
+            <img src="img/Alamo Belt-Buckle.png" alt="">
+            <div class="contact">
+                <p>Robert Cantu<br>
+                    Corpus Fusion Entertainment<br>
+                    corpusfusion@gmail.com <br>
+                    210.251.1448</p>
+            </div>
         </div>
     </div>
 </div> 
 <h4>Copyright 2021. Corpus Fusion Entertainment</h4>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
