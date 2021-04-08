@@ -127,9 +127,12 @@ p {
 
       .footer {
           padding: 25px;
+      }
+
+      .footer_row {
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
+          align-items: flex-start;
+          gap: 70px;
       }
   }
-
