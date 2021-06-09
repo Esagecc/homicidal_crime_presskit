@@ -14,7 +14,7 @@ const navbarShow = document.getElementById('navbar-list')
         navbarShow.classList.toggle('active')
     }
 
-
+    
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
