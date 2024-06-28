@@ -11,6 +11,7 @@
 .corpus {
   height: 80px;
   cursor: pointer;
+  padding-left: 20px;
 }
 
  
@@ -256,6 +257,11 @@ p {
   }
 
   @media (min-width:900px){
+
+    .corpus {
+      padding-left: 50px;
+    }
+
     .toggle {
       display: none;
   }
@@ -277,6 +283,7 @@ p {
       display: flex;
       flex-direction: row;
       align-items: center;
+      padding-right: 50px;
     }
     
       .poster {
